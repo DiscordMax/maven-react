@@ -1,3 +1,8 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const footer = () => (
+  
 <div class="sc-1659snh-0 eSjOZD">
                 <div class="fz1i6o-1 Row hlBFRk">
                     <maventest>
@@ -24,3 +29,4 @@
                                                 </div>
                                                 </div>
                                                 </div>
+  );
