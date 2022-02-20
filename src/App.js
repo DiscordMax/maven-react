@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage, MenuPage, DashboardPage, ScrimPage } from './pages';
-import { ConfigPage } from './pages/ConfigPage';
-import { ManagePage } from './pages/ManagementPage';
+import { HomePage, LostPage, TeamPage } from './pages';
+import { footer } from './pages/footer';
 
 function App() {
-    return ( <Switch>
-        <Route path = "/" exact = { true } component = { LandingPage } />
-        <Route path = "/dashboard" exact = { true } component = { MenuPage } />          
-        <Route path = "/docscrim" exact = { true } component = { ScrimPage } />
-        <Route path = "/docconfigs" exact = { true } component = { ConfigPage } /> 
-        <Route path = "/docmanagement" exact = { true } component = { ManagePage } /> 
-        <Route path = "/dashboard/:id" exact = { true } component = { DashboardPage } /> 
+    return ( 
+        <Switch>
+        <Route path = "/" exact = { true } component = { HomePage } />
+        <Route path = "/404" exact = { true } component = { LostPage } />          
+        <Route path = "/team" exact = { true } component = { TeamPage } />
+        <Route path = "/footer" exact = { true } component = { footer } /> 
         </Switch>
     );
 }
