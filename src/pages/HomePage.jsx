@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Main from '../layouts/Main';
-
 const HomePage = () => (
 <head>  
 <div>
@@ -42,9 +40,9 @@ const HomePage = () => (
     <meta property="og:locale" content="en_US" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
-    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
-    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" />
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" />
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" />
 
     <link rel="shortcut icon" href="src/logo.svg" />
     <link rel="apple-touch-icon" href="src/logo.svg" />
@@ -897,7 +895,7 @@ window.addEventListener("scroll", () => {
     <script src="assets/js/vendor/ponyfill.min.js"></script>
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
-                <script src="src/index.js"></script>
+    <script src="src/index.js"></script>
     <script src="assets/js/vendor/animation.min.js"></script>
     <script src="../kit.fontawesome.com/86323babb4.js" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
