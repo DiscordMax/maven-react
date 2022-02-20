@@ -1,6 +1,5 @@
 import React from "react";
 function App() {
-  return (
 <head>  
 <div>
             <div>
@@ -905,6 +904,5 @@ window.addEventListener("scroll", () => {
 <script>
   includeHTML();
 </script>
-  );
 }
 export default App;
